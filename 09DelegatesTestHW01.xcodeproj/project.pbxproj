@@ -19,6 +19,9 @@
 		3ED15EC7189EBF0E0098D81B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED15EAF189EBF0E0098D81B /* UIKit.framework */; };
 		3ED15ECF189EBF0E0098D81B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED15ECD189EBF0E0098D81B /* InfoPlist.strings */; };
 		3ED15ED1189EBF0E0098D81B /* DelegatesTestHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED15ED0189EBF0E0098D81B /* DelegatesTestHomeWorkTests.m */; };
+		3EFD8FA318A0149E00281C53 /* RITDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD8FA018A0149E00281C53 /* RITDoctor.m */; };
+		3EFD8FA418A0149E00281C53 /* RITPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD8FA218A0149E00281C53 /* RITPatient.m */; };
+		3EFD8FA618A016F600281C53 /* Task in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD8FA518A016F600281C53 /* Task */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3ED15EA8189EBF0E0098D81B /* DelegatesTestHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegatesTestHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED15EA8189EBF0E0098D81B /* 09DelegatesTestHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 09DelegatesTestHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED15EAB189EBF0E0098D81B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3ED15EAD189EBF0E0098D81B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3ED15EAF189EBF0E0098D81B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3ED15EB3189EBF0E0098D81B /* DelegatesTestHomeWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegatesTestHomeWork-Info.plist"; sourceTree = "<group>"; };
+		3ED15EB3189EBF0E0098D81B /* 09DelegatesTestHW01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "09DelegatesTestHW01-Info.plist"; sourceTree = "<group>"; };
 		3ED15EB5189EBF0E0098D81B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ED15EB7189EBF0E0098D81B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3ED15EB9189EBF0E0098D81B /* DelegatesTestHomeWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegatesTestHomeWork-Prefix.pch"; sourceTree = "<group>"; };
+		3ED15EB9189EBF0E0098D81B /* 09DelegatesTestHW01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "09DelegatesTestHW01-Prefix.pch"; sourceTree = "<group>"; };
 		3ED15EBA189EBF0E0098D81B /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
 		3ED15EBB189EBF0E0098D81B /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
 		3ED15EBD189EBF0E0098D81B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3ED15EC3189EBF0E0098D81B /* DelegatesTestHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegatesTestHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED15EC3189EBF0E0098D81B /* 09DelegatesTestHW01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 09DelegatesTestHW01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED15EC4189EBF0E0098D81B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3ED15ECC189EBF0E0098D81B /* DelegatesTestHomeWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegatesTestHomeWorkTests-Info.plist"; sourceTree = "<group>"; };
+		3ED15ECC189EBF0E0098D81B /* 09DelegatesTestHW01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "09DelegatesTestHW01Tests-Info.plist"; sourceTree = "<group>"; };
 		3ED15ECE189EBF0E0098D81B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ED15ED0189EBF0E0098D81B /* DelegatesTestHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatesTestHomeWorkTests.m; sourceTree = "<group>"; };
+		3EFD8F9F18A0149E00281C53 /* RITDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITDoctor.h; sourceTree = "<group>"; };
+		3EFD8FA018A0149E00281C53 /* RITDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITDoctor.m; sourceTree = "<group>"; };
+		3EFD8FA118A0149E00281C53 /* RITPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITPatient.h; sourceTree = "<group>"; };
+		3EFD8FA218A0149E00281C53 /* RITPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITPatient.m; sourceTree = "<group>"; };
+		3EFD8FA518A016F600281C53 /* Task */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Task; path = DelegatesTestHomeWork/Task; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,9 @@
 		3ED15E9F189EBF0E0098D81B = {
 			isa = PBXGroup;
 			children = (
-				3ED15EB1189EBF0E0098D81B /* DelegatesTestHomeWork */,
-				3ED15ECA189EBF0E0098D81B /* DelegatesTestHomeWorkTests */,
+				3EFD8FA518A016F600281C53 /* Task */,
+				3ED15EB1189EBF0E0098D81B /* DelegatesTestHW */,
+				3ED15ECA189EBF0E0098D81B /* DelegatesTestHWTests */,
 				3ED15EAA189EBF0E0098D81B /* Frameworks */,
 				3ED15EA9189EBF0E0098D81B /* Products */,
 			);
@@ -87,8 +96,8 @@
 		3ED15EA9189EBF0E0098D81B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ED15EA8189EBF0E0098D81B /* DelegatesTestHomeWork.app */,
-				3ED15EC3189EBF0E0098D81B /* DelegatesTestHomeWorkTests.xctest */,
+				3ED15EA8189EBF0E0098D81B /* 09DelegatesTestHW01.app */,
+				3ED15EC3189EBF0E0098D81B /* 09DelegatesTestHW01Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,41 +113,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3ED15EB1189EBF0E0098D81B /* DelegatesTestHomeWork */ = {
+		3ED15EB1189EBF0E0098D81B /* DelegatesTestHW */ = {
 			isa = PBXGroup;
 			children = (
+				3EFD8FA118A0149E00281C53 /* RITPatient.h */,
+				3EFD8FA218A0149E00281C53 /* RITPatient.m */,
+				3EFD8F9F18A0149E00281C53 /* RITDoctor.h */,
+				3EFD8FA018A0149E00281C53 /* RITDoctor.m */,
 				3ED15EBA189EBF0E0098D81B /* RITAppDelegate.h */,
 				3ED15EBB189EBF0E0098D81B /* RITAppDelegate.m */,
 				3ED15EBD189EBF0E0098D81B /* Images.xcassets */,
 				3ED15EB2189EBF0E0098D81B /* Supporting Files */,
 			);
+			name = DelegatesTestHW;
 			path = DelegatesTestHomeWork;
 			sourceTree = "<group>";
 		};
 		3ED15EB2189EBF0E0098D81B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3ED15EB3189EBF0E0098D81B /* DelegatesTestHomeWork-Info.plist */,
+				3ED15EB3189EBF0E0098D81B /* 09DelegatesTestHW01-Info.plist */,
 				3ED15EB4189EBF0E0098D81B /* InfoPlist.strings */,
 				3ED15EB7189EBF0E0098D81B /* main.m */,
-				3ED15EB9189EBF0E0098D81B /* DelegatesTestHomeWork-Prefix.pch */,
+				3ED15EB9189EBF0E0098D81B /* 09DelegatesTestHW01-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3ED15ECA189EBF0E0098D81B /* DelegatesTestHomeWorkTests */ = {
+		3ED15ECA189EBF0E0098D81B /* DelegatesTestHWTests */ = {
 			isa = PBXGroup;
 			children = (
 				3ED15ED0189EBF0E0098D81B /* DelegatesTestHomeWorkTests.m */,
 				3ED15ECB189EBF0E0098D81B /* Supporting Files */,
 			);
+			name = DelegatesTestHWTests;
 			path = DelegatesTestHomeWorkTests;
 			sourceTree = "<group>";
 		};
 		3ED15ECB189EBF0E0098D81B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3ED15ECC189EBF0E0098D81B /* DelegatesTestHomeWorkTests-Info.plist */,
+				3ED15ECC189EBF0E0098D81B /* 09DelegatesTestHW01Tests-Info.plist */,
 				3ED15ECD189EBF0E0098D81B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ED15EA7189EBF0E0098D81B /* DelegatesTestHomeWork */ = {
+		3ED15EA7189EBF0E0098D81B /* 09DelegatesTestHW01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED15ED4189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "DelegatesTestHomeWork" */;
+			buildConfigurationList = 3ED15ED4189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "09DelegatesTestHW01" */;
 			buildPhases = (
 				3ED15EA4189EBF0E0098D81B /* Sources */,
 				3ED15EA5189EBF0E0098D81B /* Frameworks */,
@@ -159,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = DelegatesTestHomeWork;
+			name = 09DelegatesTestHW01;
 			productName = DelegatesTestHomeWork;
-			productReference = 3ED15EA8189EBF0E0098D81B /* DelegatesTestHomeWork.app */;
+			productReference = 3ED15EA8189EBF0E0098D81B /* 09DelegatesTestHW01.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3ED15EC2189EBF0E0098D81B /* DelegatesTestHomeWorkTests */ = {
+		3ED15EC2189EBF0E0098D81B /* 09DelegatesTestHW01Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED15ED7189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "DelegatesTestHomeWorkTests" */;
+			buildConfigurationList = 3ED15ED7189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "09DelegatesTestHW01Tests" */;
 			buildPhases = (
 				3ED15EBF189EBF0E0098D81B /* Sources */,
 				3ED15EC0189EBF0E0098D81B /* Frameworks */,
@@ -177,9 +192,9 @@
 			dependencies = (
 				3ED15EC9189EBF0E0098D81B /* PBXTargetDependency */,
 			);
-			name = DelegatesTestHomeWorkTests;
+			name = 09DelegatesTestHW01Tests;
 			productName = DelegatesTestHomeWorkTests;
-			productReference = 3ED15EC3189EBF0E0098D81B /* DelegatesTestHomeWorkTests.xctest */;
+			productReference = 3ED15EC3189EBF0E0098D81B /* 09DelegatesTestHW01Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3ED15EA3189EBF0E0098D81B /* Build configuration list for PBXProject "DelegatesTestHomeWork" */;
+			buildConfigurationList = 3ED15EA3189EBF0E0098D81B /* Build configuration list for PBXProject "09DelegatesTestHW01" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ED15EA7189EBF0E0098D81B /* DelegatesTestHomeWork */,
-				3ED15EC2189EBF0E0098D81B /* DelegatesTestHomeWorkTests */,
+				3ED15EA7189EBF0E0098D81B /* 09DelegatesTestHW01 */,
+				3ED15EC2189EBF0E0098D81B /* 09DelegatesTestHW01Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED15EB6189EBF0E0098D81B /* InfoPlist.strings in Resources */,
+				3EFD8FA618A016F600281C53 /* Task in Resources */,
 				3ED15EBE189EBF0E0098D81B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED15EBC189EBF0E0098D81B /* RITAppDelegate.m in Sources */,
+				3EFD8FA318A0149E00281C53 /* RITDoctor.m in Sources */,
 				3ED15EB8189EBF0E0098D81B /* main.m in Sources */,
+				3EFD8FA418A0149E00281C53 /* RITPatient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +276,7 @@
 /* Begin PBXTargetDependency section */
 		3ED15EC9189EBF0E0098D81B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3ED15EA7189EBF0E0098D81B /* DelegatesTestHomeWork */;
+			target = 3ED15EA7189EBF0E0098D81B /* 09DelegatesTestHW01 */;
 			targetProxy = 3ED15EC8189EBF0E0098D81B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,9 +381,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DelegatesTestHomeWork/DelegatesTestHomeWork-Prefix.pch";
-				INFOPLIST_FILE = "DelegatesTestHomeWork/DelegatesTestHomeWork-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DelegatesTestHomeWork/09DelegatesTestHW01-Prefix.pch";
+				INFOPLIST_FILE = "DelegatesTestHomeWork/09DelegatesTestHW01-Info.plist";
+				PRODUCT_NAME = 09DelegatesTestHW01;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,9 +394,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DelegatesTestHomeWork/DelegatesTestHomeWork-Prefix.pch";
-				INFOPLIST_FILE = "DelegatesTestHomeWork/DelegatesTestHomeWork-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DelegatesTestHomeWork/09DelegatesTestHW01-Prefix.pch";
+				INFOPLIST_FILE = "DelegatesTestHomeWork/09DelegatesTestHW01-Info.plist";
+				PRODUCT_NAME = 09DelegatesTestHW01;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -399,8 +417,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "DelegatesTestHomeWorkTests/DelegatesTestHomeWorkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DelegatesTestHomeWorkTests/09DelegatesTestHW01Tests-Info.plist";
+				PRODUCT_NAME = 09DelegatesTestHW01Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -418,8 +436,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DelegatesTestHomeWork/DelegatesTestHomeWork-Prefix.pch";
-				INFOPLIST_FILE = "DelegatesTestHomeWorkTests/DelegatesTestHomeWorkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DelegatesTestHomeWorkTests/09DelegatesTestHW01Tests-Info.plist";
+				PRODUCT_NAME = 09DelegatesTestHW01Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ED15EA3189EBF0E0098D81B /* Build configuration list for PBXProject "DelegatesTestHomeWork" */ = {
+		3ED15EA3189EBF0E0098D81B /* Build configuration list for PBXProject "09DelegatesTestHW01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED15ED2189EBF0E0098D81B /* Debug */,
@@ -437,21 +455,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ED15ED4189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "DelegatesTestHomeWork" */ = {
+		3ED15ED4189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "09DelegatesTestHW01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED15ED5189EBF0E0098D81B /* Debug */,
 				3ED15ED6189EBF0E0098D81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3ED15ED7189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "DelegatesTestHomeWorkTests" */ = {
+		3ED15ED7189EBF0E0098D81B /* Build configuration list for PBXNativeTarget "09DelegatesTestHW01Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED15ED8189EBF0E0098D81B /* Debug */,
 				3ED15ED9189EBF0E0098D81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
